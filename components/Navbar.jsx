@@ -14,17 +14,12 @@ const Navbar = () => {
         <Link href="/">Beats Store</Link>
       </p>
       <p className="logo">
-        <Link href="/">Home</Link>
+        <Link href="/about">About</Link>
       </p>
 
       <p className="logo">
-        <Link href="/">About</Link>
+        <Link href="/allproducts">Products</Link>
       </p>
-
-      <p className="logo">
-        <Link href="/">Products</Link>
-      </p>
-
       <button
         type="button"
         className="cart-icon"
@@ -33,7 +28,6 @@ const Navbar = () => {
         <AiOutlineShopping />
         <span className="cart-item-qty">{totalQuantities}</span>
       </button>
-
       {showCart && <Cart />}
     </div>
   );
