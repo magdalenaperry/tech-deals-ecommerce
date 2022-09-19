@@ -1,34 +1,180 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div id="top"></div>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![GitHub followers](https://img.shields.io/github/followers/magdalenaperry?style=for-the-badge)
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-```bash
-npm run dev
-# or
-yarn dev
+<!-- [![MIT License][license-shield]][license-url] -->
+
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+---
+
+<a align="center" href="https://github.com/magdalenaperry/tech-deals-ecommerce">
+    <img src="/" alt="Logo" width="100px" height="100px">
+</a>
+
+# Tech-Deals
+
+</div>
+
+## Table of Contents
+
+1. [Description](#description)
+1. [Technologies](#technologies)
+1. [Prerequisites](#prerequisites)
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [Visuals](#visuals)
+1. [Contributors](#contributors)
+1. [Roadmap](#roadmap)
+1. [Contact](#contact)
+1. [Acknowledgements](#acknowledgements)
+
+---
+
+## Description
+
+Tech Deals, is an ecommerce application created with Sanity.io, Stripe functionality, on a React, NextJs framework.
+
+#### Deployed Links:
+
+[Tech Deals Repository Link ](https://github.com/magdalenaperry/tech-deals-ecommerce)
+
+[Tech Deals Link ](https://tech-deals-ecommerce.vercel.app/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+## Technologies
+
+- JavaScript
+- React
+- NextJs
+- Sanity.io
+- Stripe
+- bootstrap
+- react-icons
+- react-hot-toast
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+## Prerequisites
+
+1. Node.js
+   - [Node.js download](https://nodejs.org/en/)
+2. verify installation
+
+```
+    node -v
+    npm -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+  npm install
+  npm run dev
+  cd tech-store
+  npm install
+```
 
-## Learn More
+<p align="right">(<a href="#top">back to top</a>)</p>
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+.ENV variables:
+NEXT_PUBLIC_SANITY_TOKEN =
 
-## Deploy on Vercel
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY =
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+NEXT_PUBLIC_STRIPE_SECRET_KEY =
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+## Visuals
+
+<div align="center">
+
+### ![Vita Amet Homepage](homepage.png)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+</div>
+
+## Contributors
+
+Magdalena Perry:
+
+- [Linkedin](https://www.linkedin.com/in/magdalena-perry/)
+
+- [Github](https://github.com/magdalenaperry)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+## Roadmap
+
+- [x] Create ReactJs file structure
+- [x] Link Sanity
+- [x] Create Sanity DB
+- [x] Link Stripe API
+- [x] Styling & JavaScript
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+## Contact
+
+For any additional questions, please reach out to me through email and follow me on GitHub.
+
+Name - [Magdalena Perry LinkedIn](https:www.linkedin.com/in/magdalenaperry)
+
+Github - [magdalenaperry](https://www.github.com/magdalenaperry)
+
+email - [mageltron@gmail.com](mageltron@gmail.com)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+---
+
+## Acknowledgements
+
+- [@react-icons](https://react-icons.github.io/react-icons/)
+- [JS-Mastery](https://www.jsmastery.pro/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- shield variables -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/magdalenaperry/tech-deals-ecommerce.svg?style=for-the-badge
+[contributors-url]: https://github.com/magdalenaperry/tech-deals-ecommerce/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/magdalenaperry/tech-deals-ecommerce.svg?style=for-the-badge
+[forks-url]: https://github.com/magdalenaperry/tech-deals-ecommerce/network/members
+[stars-shield]: https://img.shields.io/github/stars/magdalenaperry/tech-deals-ecommerce.svg?style=for-the-badge
+[stars-url]: https://github.com/magdalenaperry/tech-deals-ecommerce/stargazers
+[issues-shield]: https://img.shields.io/github/issues/magdalenaperry/tech-deals-ecommerce.svg?style=for-the-badge
+[issues-url]: https://github.com/magdalenaperry/tech-deals-ecommerce/issues
+[license-shield]: https://img.shields.io/github/license/magdalenaperry/tech-deals-ecommerce.svg?style=for-the-badge
+[license-url]: https://github.com/magdalenaperry/tech-deals-ecommerce/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/magdalena-perry
