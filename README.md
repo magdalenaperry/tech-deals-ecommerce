@@ -96,12 +96,13 @@ Tech Deals, is an ecommerce application created with Sanity.io, Stripe functiona
 
 ## Usage
 
-.ENV variables:
-NEXT_PUBLIC_SANITY_TOKEN =
+### .env
 
-NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY =
+    NEXT_PUBLIC_SANITY_TOKEN =
 
-NEXT_PUBLIC_STRIPE_SECRET_KEY =
+    NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY =
+
+    NEXT_PUBLIC_STRIPE_SECRET_KEY =
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
